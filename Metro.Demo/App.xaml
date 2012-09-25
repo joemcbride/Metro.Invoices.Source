@@ -1,0 +1,18 @@
+﻿<Application
+	x:Class="Metro.App"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:local="clr-namespace:Metro">
+    <Application.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+				<ResourceDictionary Source="Assets/Theme/Brushes.xaml"/>
+				<ResourceDictionary Source="Assets/Theme/CoreStyles.xaml"/>
+				<ResourceDictionary Source="Assets/Theme/Styles.xaml"/>
+				<ResourceDictionary Source="Assets/Controls.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+
+			<local:AppBootstrapper x:Key="bootstrapper"/>
+		</ResourceDictionary>
+	</Application.Resources>
+</Application>

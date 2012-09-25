@@ -1,0 +1,33 @@
+﻿<Metro_ViewModels:ClientInvoiceViewModel
+	xmlns:Metro_ViewModels="clr-namespace:Metro.ViewModels"
+	xmlns:Metro_Model="clr-namespace:Metro.Common.Model"
+	xmlns:System="clr-namespace:System;assembly=mscorlib"
+	DisplayMcBrideSoftwareLogo="True">
+	<Metro_ViewModels:ClientInvoiceViewModel.Invoice>
+		<Metro_Model:Invoice DueDate="12/12/2010 23:59:04" IssuedDate="11/12/2010 23:59:04" Notes="Please make all checks payable to McBride Software Solutions, Inc.  Thank you for your business!" Subject="Consulting work for Veracity and some other fine establishments that I know." Net="Net 30">
+			<Metro_Model:Invoice.Company>
+				<Metro_Model:Address Name="McBride Software Solutions, Inc." Line1="727 Twin River Way Apt 2131" Line2="Taylorsville, UT 84123" Phone="(801) 388-3445"/>
+			</Metro_Model:Invoice.Company>
+			<Metro_Model:Invoice.Client>
+				<Metro_Model:Address Name="Veracity Solutions, Inc." Line1="4038 Pineview Drive" Line2="Salt Lake City, UT 84102" Phone="(801) 277-5095"/>
+			</Metro_Model:Invoice.Client>
+			<Metro_Model:Invoice.Items>
+				<Metro_Model:InvoiceItemCollection>
+					<Metro_Model:InvoiceItemCollection.AmountDue>
+						2600.00
+					</Metro_Model:InvoiceItemCollection.AmountDue>
+					<Metro_Model:InvoiceItem Description="Aenean aliquam nam" Hours="5.0" Rate="5.0" Amount="25.00"/>
+					<Metro_Model:InvoiceItem Description="Cras class curabitur phasellus" Hours="5.0" Rate="5.0" Amount="25.00"/>
+					<Metro_Model:InvoiceItem Description="Sed integer" Hours="5.0" Rate="5.0" Amount="25.00"/>
+					<Metro_Model:InvoiceItem Description="Maecenas quisque" Hours="5.0" Rate="5.0" Amount="25.00"/>
+					<Metro_Model:InvoiceItem Description="Mauris duis nunc" Hours="5.0" Rate="5.0" Amount="25.00"/>
+					<Metro_Model:InvoiceItem Description="Amet curae dis est praesent" Hours="5.0" Rate="5.0" Amount="25.00"/>
+					<Metro_Model:InvoiceItem Description="Consequat convallis hac nullam vivamus" Hours="5.0" Rate="5.0" Amount="25.00"/>
+				</Metro_Model:InvoiceItemCollection>
+			</Metro_Model:Invoice.Items>
+			<Metro_Model:Invoice.InvoiceID>
+				1150
+			</Metro_Model:Invoice.InvoiceID>
+		</Metro_Model:Invoice>
+	</Metro_ViewModels:ClientInvoiceViewModel.Invoice>
+</Metro_ViewModels:ClientInvoiceViewModel>

@@ -1,0 +1,32 @@
+﻿<Metro_ViewModels:ClientInvoiceViewModel xmlns:Metro_ViewModels="clr-namespace:Metro.ViewModels" xmlns:Metro_Common_Model="clr-namespace:Metro.Common.Model" xmlns:System="clr-namespace:System;assembly=mscorlib" DisplayName="Blandit mus commodo conubia nec" DisplayMcBrideSoftwareLogo="True" IsNotifying="False" IsInitialized="True" IsActive="False">
+	<Metro_ViewModels:ClientInvoiceViewModel.Invoice>
+		<Metro_Common_Model:Invoice DueDate="12/14/2010 23:14:31" IsNotifying="True" IssuedDate="11/14/2010 23:14:31" Net="Net 30" Notes="Eget vestibulum adipiscing" Subject="Luctus nulla elit">
+			<Metro_Common_Model:Invoice.Company>
+				<Metro_Common_Model:Address IsNotifying="True" Line1="Mauris integer ante etiam" Line2="Nullam aptent auctor" Name="McBride Software Solutions, Inc." Phone="(801) 987-6543"/>
+			</Metro_Common_Model:Invoice.Company>
+			<Metro_Common_Model:Invoice.Client>
+				<Metro_Common_Model:Address IsNotifying="False" Line1="Maecenas vestibulum cras aenean" Line2="Aliquam class nam sed dis" Name="Microsft Corporation" Phone="(800) 555-5555"/>
+			</Metro_Common_Model:Invoice.Client>
+			<Metro_Common_Model:Invoice.Items>
+				<Metro_Common_Model:InvoiceItemCollection IsNotifying="False">
+					<Metro_Common_Model:InvoiceItemCollection.AmountDue>
+						1500
+					</Metro_Common_Model:InvoiceItemCollection.AmountDue>
+					<Metro_Common_Model:InvoiceItem Description="Fusce phasellus" Hours="8" IsNotifying="True" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Parturient quisque" Hours="8" IsNotifying="False" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Congue arcu" Hours="8" IsNotifying="True" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Vivamus cursus" Hours="8" IsNotifying="False" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Aliquam lorem aliquet" Hours="8" IsNotifying="True" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Consequat accumsan dictum" Hours="8" IsNotifying="False" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Convallis lectus dignissim" Hours="8" IsNotifying="True" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Morbi bibendum diam hac" Hours="8" IsNotifying="False" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Libero ligula" Hours="8" IsNotifying="True" Rate="20.00" Amount="100.00"/>
+					<Metro_Common_Model:InvoiceItem Description="Litora elementum vestibulum" Hours="8" IsNotifying="False" Rate="20.00" Amount="100.00"/>
+				</Metro_Common_Model:InvoiceItemCollection>
+			</Metro_Common_Model:Invoice.Items>
+			<Metro_Common_Model:Invoice.InvoiceID>
+				1337
+			</Metro_Common_Model:Invoice.InvoiceID>
+		</Metro_Common_Model:Invoice>
+	</Metro_ViewModels:ClientInvoiceViewModel.Invoice>
+</Metro_ViewModels:ClientInvoiceViewModel>
